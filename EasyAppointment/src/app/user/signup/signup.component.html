@@ -1,1 +1,25 @@
-<p>signup works!</p>
+<mat-card class="example-card">
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Username">
+            <mat-hint></mat-hint>
+        </mat-form-field><br>
+        
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Password">
+            <mat-hint></mat-hint>
+        </mat-form-field><br>
+
+        <mat-form-field>
+            <mat-select placeholder="Select Health Care">
+                <mat-option value="option">Sanford Health Provider</mat-option>
+                <mat-option value="option">Avera Health Provider</mat-option>
+            </mat-select>
+        </mat-form-field><br>
+        <div class="added-height"></div>
+        <mat-checkbox>Retrieve electronic medical record (EMR)</mat-checkbox><br>
+        <div class="added-height"></div>
+        <div class="added-height"></div>
+        <button mat-raised-button class="added-height">Submit</button>
+    </form>
+</mat-card>
