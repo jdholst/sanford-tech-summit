@@ -23,5 +23,16 @@ import {
     MatSelectModule,
     MatCheckboxModule
   ],
+  exports: [
+    MatInputModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatButtonModule,
+    MatDialogModule,
+    MatOptionModule,
+    MatSelectModule,
+    MatCheckboxModule
+  ],
 })
 export class MaterialModule {}
